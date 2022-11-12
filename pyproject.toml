@@ -11,6 +11,10 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 
-
 [tool.maturin]
 python-source = "python"
+
+[tool.poetry]
+authors = ["Guangyu He <me@heguangyu.net>"]
+version = "0.1.0"
+readme = "README.md"
